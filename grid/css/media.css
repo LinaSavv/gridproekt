@@ -1,0 +1,455 @@
+@media (max-width: 1200px) {
+    .hero-bg {
+        background-size: 545px 593px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* Hero */
+  
+    .hero-bg {
+        background-image: url('../img/hero960px.png');
+        background-size: 330px 351px;
+        background-position-y:  117px;
+        background-position-x: 97% ;
+    }
+
+    .hero-content {
+        padding-bottom: 130px;
+    }
+
+    .hero__title {
+        margin-bottom: 15px;
+        font-size: 50px;
+        
+    }
+
+    .hero__descr {
+        margin-bottom: 65px;
+        max-width: 345px;
+    }
+
+    /* Benefits */
+
+    .benefits {
+        padding-bottom: 95px;
+    }
+
+    .benefits__img {
+        background-image: url('../img/Benifits960.jpg');
+        background-position: 15px 20px;
+        background-size: 211px 187px;
+    }
+
+    .benetits__item {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding-left: 15px;
+        padding-top: 95px;
+        background-position-y: top;
+        background-position-x: 15px;
+    }
+
+    .benefits__descr {
+        margin-bottom: 20px;
+    }
+
+    .benetits__item:first-child {
+        padding-left: 0px;
+        background-position-x: 0;
+    }
+
+    /* Teachers */ 
+
+    .teachers {
+        padding-top: 75px;
+        padding-bottom: 30px;
+    }
+
+    .teachers__title {
+        margin-bottom: 20px;
+    }
+
+    .teachers__item:nth-child(2n) {
+        padding-right: 0px;
+    }
+
+    .teachers__item:nth-child(3n) {
+        padding-left: 0px;
+    }
+
+    .teachers__item {
+        margin-bottom: 20px;
+    }
+
+    .teachers__item img {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    /* Courses */
+
+    .courses {
+        padding-top: 65px;
+        padding-bottom: 53px;
+    }
+
+    .courses__title {
+        margin-bottom: 15px;
+    }
+    
+    .courses__item {
+        min-height: 556px;
+    }
+
+    .courses__bg-one {
+        background-image: url('../img/cinema4d960curses.jpg');
+    }
+    
+    .courses__bg-two {
+        background-image: url('../img/blender960courses.jpg');
+    }
+    
+    .courses__bg-three {
+        background-image: url('../img/3dmax960courses.jpg');
+    }
+    
+    .courses__bg-fore {
+        background-image: url('../img/zbrush960courses.jpg');
+    }
+
+    .courses__time {
+        top: 15px;
+        right: 10px;
+    }
+
+    .courses__content {
+        min-height: 376px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .header__left {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    /* Hero */
+
+    .hero-content {
+        padding-top: 77px;
+        padding-bottom: 135px;
+    }
+
+    .hero-bg {
+        background-image: none;
+    }
+
+    /* Benefits */
+
+    .benefits {
+        padding-bottom: 50px
+    }
+
+    .benefits__img {
+        background-size: 150px 134px;
+        background-position: 15px 0;
+    }
+
+    .benefits__descr {
+        margin-bottom: 25px;
+    }
+
+   
+
+    /* Teachers */
+
+    .teachers {
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+
+    .teachers__title {
+        margin-bottom: 25px;
+    }
+
+    /* Courses */
+
+    .courses__item {
+        min-height: 653px;
+    }
+
+    .courses__content {
+        padding: 25px;
+        padding-top: 30px;
+        padding-left: 30px;
+        min-height: 473px;
+    }
+
+    .courses__btn {
+        padding: 20px 48px;
+    }
+
+    
+    .courses__bg-one {
+        background-image: url('../img/CoursesCinema4d690.jpg');
+    }
+
+    .courses__bg-two {
+        background-image: url('../img/CoursesBlender690.jpg');
+    }
+
+    .courses__bg-three {
+        background-image: url('../img/Courses3dsMax690.jpg');
+    }
+
+    .courses__bg-fore {
+        background-image: url('../img/CoursesZBrush690.jpg');
+    }
+
+}
+
+@media (max-width: 576px) {
+    /* Header */
+
+    .header {
+        padding-top: 22px;
+        padding-bottom: 27px;
+    }
+
+    .header__content {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .header__left {
+        margin-bottom: 0;
+    }
+
+    .burger {
+        display: block;
+        z-index: 100000;
+    }
+
+    .header__nav {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        padding: 15px;
+        padding-top: 85px;
+        height: 67vh;
+        width: 60%;
+        min-width: 320px;
+        z-index: 10000;
+        background-color: #2F2C45;
+        overflow-y: auto;
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        transform: translateY(-120%);
+        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+        transition: -webkit-transform 0.5s ease-in-out;
+        -o-transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    }
+
+    .header__nav-visible {
+        transform: none;
+    }
+
+
+    .header__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .header__item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 56px;
+    }
+
+    .header__list .header__link {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 72px;
+        height: 16px;
+    }
+
+
+    /* Hero */
+
+    .hero-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero__title {
+        margin-bottom: 5px;
+        font-size: 30px;
+        
+    }
+
+    .hero__descr {
+        margin-bottom: 45px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+
+    .hero__btn {
+        padding: 20px 54px;
+        font-size: 16px;
+    }
+
+    /* Benerits */
+
+    .benefits {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .benefits__title {
+        margin-bottom: 3px;
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
+    .benetits__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0;
+        padding-left: 110px;
+        padding-bottom: 33px;
+        background-position: 0 0;
+    }
+
+    .benetits__item:first-child {
+        padding-left: 110px;
+        background-position-x: 0;
+    }
+
+    .benetits__item:last-child {
+        padding-bottom: 0;
+    }
+
+
+    /* Teacher */
+
+    .teachers {
+        padding-top: 48px;
+        padding-bottom: 25px;
+    }
+
+    .teachers__title {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .teachers__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .teachers__info {
+        max-width: 320px;
+    }
+
+    .teachers__item img {
+        width: 320px;
+        max-width: 100%;
+        border-top-left-radius: 28px;
+        border-top-right-radius: 28px;
+    }
+    
+    .teachers__item img {
+        margin-bottom: 27px;
+    }
+  
+
+    /* Courses */ 
+
+    .courses {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .courses__title {
+        margin-bottom: 22px;
+        font-size: 20px;
+    }
+
+    .courses__item {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 320px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .courses__bg  {
+        background-size: 100% 100%;
+    }
+
+    .courses__title-item {
+        margin-bottom: 5px;
+    }
+
+    .courses__btn {
+        padding: 20px 56px;
+    }
+
+    .courses__bg-one {
+        background-image: url('../img/CoursesCinema320.jpg');
+    }
+
+    .courses__bg-two {
+        background-image: url('../img/CoursesBlender320.jpg');
+    }
+
+    .courses__bg-three {
+        background-image: url('../img/Courses3dMax320.jpg');
+    }
+
+    .courses__bg-fore {
+        background-image: url('../img/CoursesZBrush320.jpg');
+    }
+
+
+}
